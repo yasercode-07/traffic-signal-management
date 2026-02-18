@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Traffic Signal Management</title>
+</head>
+
+<body>
+
+<h2>Traffic Density (1KM Sensor Data)</h2>
+
+North: {{data.north}} Vehicles <br>
+South: {{data.south}} Vehicles <br>
+East : {{data.east}} Vehicles <br>
+West : {{data.west}} Vehicles <br>
+
+<h2>Green Signal Time Allocation</h2>
+
+North: {{data.green[0]}} sec <br>
+South: {{data.green[1]}} sec <br>
+East : {{data.green[2]}} sec <br>
+West : {{data.green[3]}} sec <br>
+
+<h3>Free Left: Enabled</h3>
+
+<h2>Synced Junction Delay</h2>
+
+North: {{data.sync[0]}} sec <br>
+South: {{data.sync[1]}} sec <br>
+East : {{data.sync[2]}} sec <br>
+West : {{data.sync[3]}} sec <br>
+
+</body>
+</html>
